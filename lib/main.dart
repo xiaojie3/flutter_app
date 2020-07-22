@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_app/home.dart';
 import 'package:flutter_app/student/curriculum.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(new MyApp());
 }
 
 class MyApp extends StatelessWidget {
